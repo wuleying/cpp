@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/Users/luoliang/projects/cpp/cpp/luobase/src/Log/Log.h
+memory
+-
+ctime
+-
+iostream
+-
+fstream
+-
+
 /Users/luoliang/projects/cpp/cpp/luobase/src/main.cpp
 iostream
 -
+Log/Log.h
+/Users/luoliang/projects/cpp/cpp/luobase/src/Log/Log.h
 
