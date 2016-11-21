@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.6.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/luoliang/projects/cpp/cpp/httpd
+CMAKE_SOURCE_DIR = /Users/luoliang/projects/cpp/cpp/luobase
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/luoliang/projects/cpp/cpp/httpd/build
+CMAKE_BINARY_DIR = /Users/luoliang/projects/cpp/cpp/luobase/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/luoliang/projects/cpp/cpp/httpd/build/CMakeFiles /Users/luoliang/projects/cpp/cpp/httpd/build/src/CMakeFiles/progress.marks
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/luoliang/projects/cpp/cpp/httpd/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/luoliang/projects/cpp/cpp/luobase/build/CMakeFiles /Users/luoliang/projects/cpp/cpp/luobase/build/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/luoliang/projects/cpp/cpp/luobase/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	$(MAKE) -f CMakeFiles/Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -141,87 +141,31 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-src/CMakeFiles/httpd.dir/rule:
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/httpd.dir/rule
-.PHONY : src/CMakeFiles/httpd.dir/rule
+#=============================================================================
+# Target rules for targets named luobase
 
-# Convenience name for target.
-httpd: src/CMakeFiles/httpd.dir/rule
-
-.PHONY : httpd
+# Build rule for target.
+luobase: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 luobase
+.PHONY : luobase
 
 # fast build rule for target.
-httpd/fast:
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(MAKE) -f src/CMakeFiles/httpd.dir/build.make src/CMakeFiles/httpd.dir/build
-.PHONY : httpd/fast
-
-Server.o: Server.cpp.o
-
-.PHONY : Server.o
-
-# target to build an object file
-Server.cpp.o:
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(MAKE) -f src/CMakeFiles/httpd.dir/build.make src/CMakeFiles/httpd.dir/Server.cpp.o
-.PHONY : Server.cpp.o
-
-Server.i: Server.cpp.i
-
-.PHONY : Server.i
-
-# target to preprocess a source file
-Server.cpp.i:
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(MAKE) -f src/CMakeFiles/httpd.dir/build.make src/CMakeFiles/httpd.dir/Server.cpp.i
-.PHONY : Server.cpp.i
-
-Server.s: Server.cpp.s
-
-.PHONY : Server.s
-
-# target to generate assembly for a file
-Server.cpp.s:
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(MAKE) -f src/CMakeFiles/httpd.dir/build.make src/CMakeFiles/httpd.dir/Server.cpp.s
-.PHONY : Server.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(MAKE) -f src/CMakeFiles/httpd.dir/build.make src/CMakeFiles/httpd.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(MAKE) -f src/CMakeFiles/httpd.dir/build.make src/CMakeFiles/httpd.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(MAKE) -f src/CMakeFiles/httpd.dir/build.make src/CMakeFiles/httpd.dir/main.cpp.s
-.PHONY : main.cpp.s
+luobase/fast:
+	$(MAKE) -f src/CMakeFiles/luobase.dir/build.make src/CMakeFiles/luobase.dir/build
+.PHONY : luobase/fast
 
 # Help Target
 help:
@@ -232,16 +176,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
-	@echo "... httpd"
 	@echo "... install"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... Server.o"
-	@echo "... Server.i"
-	@echo "... Server.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... luobase"
 .PHONY : help
 
 
@@ -253,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/luoliang/projects/cpp/cpp/httpd/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

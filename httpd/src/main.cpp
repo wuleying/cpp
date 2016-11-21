@@ -1,10 +1,12 @@
 #include <memory>
-#include <cstdint>
 #include <iostream>
-#include <evhttp.h>
+#include "Server.h"
 
 using namespace std;
 
 int main() {
+    Server server;
+
+    cout << server.getServerName() << endl;
     return 0;
 }

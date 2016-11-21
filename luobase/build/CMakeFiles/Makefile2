@@ -54,21 +54,21 @@ RM = /usr/local/Cellar/cmake/3.6.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/luoliang/projects/cpp/cpp/httpd
+CMAKE_SOURCE_DIR = /Users/luoliang/projects/cpp/cpp/luobase
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/luoliang/projects/cpp/cpp/httpd/build
+CMAKE_BINARY_DIR = /Users/luoliang/projects/cpp/cpp/luobase/build
 
 #=============================================================================
 # Directory level rules for directory src
 
 # Convenience name for "all" pass in the directory.
-src/all: src/CMakeFiles/httpd.dir/all
+src/all: src/CMakeFiles/luobase.dir/all
 
 .PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
-src/clean: src/CMakeFiles/httpd.dir/clean
+src/clean: src/CMakeFiles/luobase.dir/clean
 
 .PHONY : src/clean
 
@@ -78,39 +78,39 @@ src/preinstall:
 .PHONY : src/preinstall
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/httpd.dir
+# Target rules for target src/CMakeFiles/luobase.dir
 
 # All Build rule for target.
-src/CMakeFiles/httpd.dir/all:
-	$(MAKE) -f src/CMakeFiles/httpd.dir/build.make src/CMakeFiles/httpd.dir/depend
-	$(MAKE) -f src/CMakeFiles/httpd.dir/build.make src/CMakeFiles/httpd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/luoliang/projects/cpp/cpp/httpd/build/CMakeFiles --progress-num=1,2,3 "Built target httpd"
-.PHONY : src/CMakeFiles/httpd.dir/all
+src/CMakeFiles/luobase.dir/all:
+	$(MAKE) -f src/CMakeFiles/luobase.dir/build.make src/CMakeFiles/luobase.dir/depend
+	$(MAKE) -f src/CMakeFiles/luobase.dir/build.make src/CMakeFiles/luobase.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/luoliang/projects/cpp/cpp/luobase/build/CMakeFiles --progress-num=1,2 "Built target luobase"
+.PHONY : src/CMakeFiles/luobase.dir/all
 
 # Include target in all.
-all: src/CMakeFiles/httpd.dir/all
+all: src/CMakeFiles/luobase.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/httpd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/luoliang/projects/cpp/cpp/httpd/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/httpd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/luoliang/projects/cpp/cpp/httpd/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/httpd.dir/rule
+src/CMakeFiles/luobase.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/luoliang/projects/cpp/cpp/luobase/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/luobase.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/luoliang/projects/cpp/cpp/luobase/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/luobase.dir/rule
 
 # Convenience name for target.
-httpd: src/CMakeFiles/httpd.dir/rule
+luobase: src/CMakeFiles/luobase.dir/rule
 
-.PHONY : httpd
-
-# clean rule for target.
-src/CMakeFiles/httpd.dir/clean:
-	$(MAKE) -f src/CMakeFiles/httpd.dir/build.make src/CMakeFiles/httpd.dir/clean
-.PHONY : src/CMakeFiles/httpd.dir/clean
+.PHONY : luobase
 
 # clean rule for target.
-clean: src/CMakeFiles/httpd.dir/clean
+src/CMakeFiles/luobase.dir/clean:
+	$(MAKE) -f src/CMakeFiles/luobase.dir/build.make src/CMakeFiles/luobase.dir/clean
+.PHONY : src/CMakeFiles/luobase.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/luobase.dir/clean
 
 .PHONY : clean
 

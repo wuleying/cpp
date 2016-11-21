@@ -1,14 +1,11 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
 INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR})
-INCLUDE_DIRECTORIES("/usr/local/Cellar/libevent/2.0.22/include")
+#INCLUDE_DIRECTORIES("/usr/local/Cellar/libevent/2.0.22/include")
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 
-SET(SOURCE_SRC
-        Server.cpp
-        main.cpp
-        )
+SET(SOURCE_SRC main.cpp)
 
 ADD_EXECUTABLE(${PROJECT_NAME} ${SOURCE_SRC})
 
