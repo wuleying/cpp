@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/Log.cpp" "/Users/luoliang/projects/cpp/cpp/luobase_v1/build/luobase/CMakeFiles/luobase.dir/Log/Log.cpp.o"
+  "/Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/LogBase.cpp" "/Users/luoliang/projects/cpp/cpp/luobase_v1/build/luobase/CMakeFiles/luobase.dir/Log/LogBase.cpp.o"
   "/Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/LogConsole.cpp" "/Users/luoliang/projects/cpp/cpp/luobase_v1/build/luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o"
+  "/Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/LogFile.cpp" "/Users/luoliang/projects/cpp/cpp/luobase_v1/build/luobase/CMakeFiles/luobase.dir/Log/LogFile.cpp.o"
   "/Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/main.cpp" "/Users/luoliang/projects/cpp/cpp/luobase_v1/build/luobase/CMakeFiles/luobase.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")

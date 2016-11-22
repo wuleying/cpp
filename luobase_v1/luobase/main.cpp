@@ -1,5 +1,5 @@
 #include <iostream>
-#include <luobase/Log.hpp>
+#include <luobase/Log.h>
 
 using namespace std;
 using namespace luobase;

@@ -84,7 +84,7 @@ luobase/preinstall:
 luobase/CMakeFiles/luobase.dir/all:
 	$(MAKE) -f luobase/CMakeFiles/luobase.dir/build.make luobase/CMakeFiles/luobase.dir/depend
 	$(MAKE) -f luobase/CMakeFiles/luobase.dir/build.make luobase/CMakeFiles/luobase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/luoliang/projects/cpp/cpp/luobase_v1/build/CMakeFiles --progress-num=1,2,3,4 "Built target luobase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/luoliang/projects/cpp/cpp/luobase_v1/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target luobase"
 .PHONY : luobase/CMakeFiles/luobase.dir/all
 
 # Include target in all.
@@ -94,7 +94,7 @@ all: luobase/CMakeFiles/luobase.dir/all
 
 # Build rule for subdir invocation for target.
 luobase/CMakeFiles/luobase.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/luoliang/projects/cpp/cpp/luobase_v1/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/luoliang/projects/cpp/cpp/luobase_v1/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 luobase/CMakeFiles/luobase.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/luoliang/projects/cpp/cpp/luobase_v1/build/CMakeFiles 0
 .PHONY : luobase/CMakeFiles/luobase.dir/rule

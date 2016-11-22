@@ -2,7 +2,7 @@
 // Created by luoliang1 on 2016/11/21.
 //
 
-#include "LogConsole.hpp"
+#include <luobase/Log/LogConsole.h>
 
 using namespace std;
 
