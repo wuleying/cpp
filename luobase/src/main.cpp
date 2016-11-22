@@ -1,13 +1,11 @@
 #include <iostream>
-
-#include "Log/Log.h"
+#include "Log/ConsoleLog.h"
 
 using namespace std;
-//using namespace luobase;
+using namespace luobase;
 
 int main() {
-
-    //log::Log::getInstance()->Write("test");
+    log::ConsoleLog::GetInstance()->Log("hehe");
 
     cout << "Hello, World!" << endl;
     return 0;

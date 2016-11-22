@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o"
   "CMakeFiles/luobase.dir/main.cpp.o"
   "../bin/luobase.pdb"
   "../bin/luobase"
