@@ -2,8 +2,8 @@
 // Created by luoliang1 on 2016/11/21.
 //
 
-#ifndef LUOBASE_LOG_H
-#define LUOBASE_LOG_H
+#ifndef LUOBASE_LOGCONSOLE_H
+#define LUOBASE_LOGCONSOLE_H
 
 #include <iostream>
 
@@ -11,22 +11,22 @@ using namespace std;
 
 namespace luobase {
     namespace log {
-        class ConsoleLog {
+        class LogConsole {
         private:
-            ConsoleLog() { }
+            LogConsole() { }
 
-            ~ConsoleLog() { }
+            ~LogConsole() { }
 
-            ConsoleLog(const ConsoleLog &);
+            LogConsole(const LogConsole &);
 
-            ConsoleLog &operator=(const ConsoleLog &);
+            LogConsole &operator=(const LogConsole &);
 
-            static ConsoleLog *m_instance;
+            static LogConsole *m_instance;
 
         public:
-            static ConsoleLog *GetInstance() {
+            static LogConsole *GetInstance() {
                 if (m_instance == NULL) {
-                    m_instance = new ConsoleLog();
+                    m_instance = new LogConsole();
                 }
                 return m_instance;
             }
@@ -36,4 +36,4 @@ namespace luobase {
     }
 }
 
-#endif //LUOBASE_LOG_H
+#endif //LUOBASE_LOGCONSOLE_H
