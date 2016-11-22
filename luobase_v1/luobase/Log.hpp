@@ -6,7 +6,7 @@
 #define LUOBASE_LOG_HPP
 
 #include <luobase/Log/Log.hpp>
-#include <luobase/Log/ConsoleLog.hpp>
-#include <luobase/Log/FileLog.hpp>
+#include <luobase/Log/LogConsole.hpp>
+#include <luobase/Log/LogFile.hpp>
 
 #endif //LUOBASE_LOG_HPP

@@ -81,28 +81,28 @@ luobase/CMakeFiles/luobase.dir/Log/Log.cpp.o.provides: luobase/CMakeFiles/luobas
 luobase/CMakeFiles/luobase.dir/Log/Log.cpp.o.provides.build: luobase/CMakeFiles/luobase.dir/Log/Log.cpp.o
 
 
-luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o: luobase/CMakeFiles/luobase.dir/flags.make
-luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o: ../luobase/Log/ConsoleLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luoliang/projects/cpp/cpp/luobase_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o"
-	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build/luobase && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o -c /Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/ConsoleLog.cpp
+luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o: luobase/CMakeFiles/luobase.dir/flags.make
+luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o: ../luobase/Log/LogConsole.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luoliang/projects/cpp/cpp/luobase_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o"
+	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build/luobase && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/luobase.dir/Log/LogConsole.cpp.o -c /Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/LogConsole.cpp
 
-luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.i"
-	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build/luobase && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/ConsoleLog.cpp > CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.i
+luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luobase.dir/Log/LogConsole.cpp.i"
+	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build/luobase && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/LogConsole.cpp > CMakeFiles/luobase.dir/Log/LogConsole.cpp.i
 
-luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.s"
-	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build/luobase && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/ConsoleLog.cpp -o CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.s
+luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luobase.dir/Log/LogConsole.cpp.s"
+	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build/luobase && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/LogConsole.cpp -o CMakeFiles/luobase.dir/Log/LogConsole.cpp.s
 
-luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o.requires:
+luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o.requires:
 
-.PHONY : luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o.requires
+.PHONY : luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o.requires
 
-luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o.provides: luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o.requires
-	$(MAKE) -f luobase/CMakeFiles/luobase.dir/build.make luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o.provides.build
-.PHONY : luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o.provides
+luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o.provides: luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o.requires
+	$(MAKE) -f luobase/CMakeFiles/luobase.dir/build.make luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o.provides.build
+.PHONY : luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o.provides
 
-luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o.provides.build: luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o
+luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o.provides.build: luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o
 
 
 luobase/CMakeFiles/luobase.dir/main.cpp.o: luobase/CMakeFiles/luobase.dir/flags.make
@@ -132,14 +132,14 @@ luobase/CMakeFiles/luobase.dir/main.cpp.o.provides.build: luobase/CMakeFiles/luo
 # Object files for target luobase
 luobase_OBJECTS = \
 "CMakeFiles/luobase.dir/Log/Log.cpp.o" \
-"CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o" \
+"CMakeFiles/luobase.dir/Log/LogConsole.cpp.o" \
 "CMakeFiles/luobase.dir/main.cpp.o"
 
 # External object files for target luobase
 luobase_EXTERNAL_OBJECTS =
 
 bin/luobase: luobase/CMakeFiles/luobase.dir/Log/Log.cpp.o
-bin/luobase: luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o
+bin/luobase: luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o
 bin/luobase: luobase/CMakeFiles/luobase.dir/main.cpp.o
 bin/luobase: luobase/CMakeFiles/luobase.dir/build.make
 bin/luobase: luobase/CMakeFiles/luobase.dir/link.txt
@@ -152,7 +152,7 @@ luobase/CMakeFiles/luobase.dir/build: bin/luobase
 .PHONY : luobase/CMakeFiles/luobase.dir/build
 
 luobase/CMakeFiles/luobase.dir/requires: luobase/CMakeFiles/luobase.dir/Log/Log.cpp.o.requires
-luobase/CMakeFiles/luobase.dir/requires: luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o.requires
+luobase/CMakeFiles/luobase.dir/requires: luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o.requires
 luobase/CMakeFiles/luobase.dir/requires: luobase/CMakeFiles/luobase.dir/main.cpp.o.requires
 
 .PHONY : luobase/CMakeFiles/luobase.dir/requires

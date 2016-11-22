@@ -169,33 +169,6 @@ luobase/fast:
 	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build && $(MAKE) -f luobase/CMakeFiles/luobase.dir/build.make luobase/CMakeFiles/luobase.dir/build
 .PHONY : luobase/fast
 
-Log/ConsoleLog.o: Log/ConsoleLog.cpp.o
-
-.PHONY : Log/ConsoleLog.o
-
-# target to build an object file
-Log/ConsoleLog.cpp.o:
-	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build && $(MAKE) -f luobase/CMakeFiles/luobase.dir/build.make luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.o
-.PHONY : Log/ConsoleLog.cpp.o
-
-Log/ConsoleLog.i: Log/ConsoleLog.cpp.i
-
-.PHONY : Log/ConsoleLog.i
-
-# target to preprocess a source file
-Log/ConsoleLog.cpp.i:
-	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build && $(MAKE) -f luobase/CMakeFiles/luobase.dir/build.make luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.i
-.PHONY : Log/ConsoleLog.cpp.i
-
-Log/ConsoleLog.s: Log/ConsoleLog.cpp.s
-
-.PHONY : Log/ConsoleLog.s
-
-# target to generate assembly for a file
-Log/ConsoleLog.cpp.s:
-	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build && $(MAKE) -f luobase/CMakeFiles/luobase.dir/build.make luobase/CMakeFiles/luobase.dir/Log/ConsoleLog.cpp.s
-.PHONY : Log/ConsoleLog.cpp.s
-
 Log/Log.o: Log/Log.cpp.o
 
 .PHONY : Log/Log.o
@@ -222,6 +195,33 @@ Log/Log.s: Log/Log.cpp.s
 Log/Log.cpp.s:
 	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build && $(MAKE) -f luobase/CMakeFiles/luobase.dir/build.make luobase/CMakeFiles/luobase.dir/Log/Log.cpp.s
 .PHONY : Log/Log.cpp.s
+
+Log/LogConsole.o: Log/LogConsole.cpp.o
+
+.PHONY : Log/LogConsole.o
+
+# target to build an object file
+Log/LogConsole.cpp.o:
+	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build && $(MAKE) -f luobase/CMakeFiles/luobase.dir/build.make luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.o
+.PHONY : Log/LogConsole.cpp.o
+
+Log/LogConsole.i: Log/LogConsole.cpp.i
+
+.PHONY : Log/LogConsole.i
+
+# target to preprocess a source file
+Log/LogConsole.cpp.i:
+	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build && $(MAKE) -f luobase/CMakeFiles/luobase.dir/build.make luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.i
+.PHONY : Log/LogConsole.cpp.i
+
+Log/LogConsole.s: Log/LogConsole.cpp.s
+
+.PHONY : Log/LogConsole.s
+
+# target to generate assembly for a file
+Log/LogConsole.cpp.s:
+	cd /Users/luoliang/projects/cpp/cpp/luobase_v1/build && $(MAKE) -f luobase/CMakeFiles/luobase.dir/build.make luobase/CMakeFiles/luobase.dir/Log/LogConsole.cpp.s
+.PHONY : Log/LogConsole.cpp.s
 
 main.o: main.cpp.o
 
@@ -263,12 +263,12 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... luobase"
-	@echo "... Log/ConsoleLog.o"
-	@echo "... Log/ConsoleLog.i"
-	@echo "... Log/ConsoleLog.s"
 	@echo "... Log/Log.o"
 	@echo "... Log/Log.i"
 	@echo "... Log/Log.s"
+	@echo "... Log/LogConsole.o"
+	@echo "... Log/LogConsole.i"
+	@echo "... Log/LogConsole.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

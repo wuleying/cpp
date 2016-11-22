@@ -8,7 +8,7 @@ SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 
 SET(SOURCE_SRC
         Log/Log.cpp
-        Log/ConsoleLog.cpp
+        Log/LogConsole.cpp
         main.cpp
         )
 
