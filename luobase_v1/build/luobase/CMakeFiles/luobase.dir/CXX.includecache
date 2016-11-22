@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//luobase/Log/Log.hpp
+
+/Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/ConsoleLog.cpp
+ConsoleLog.hpp
+/Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/ConsoleLog.hpp
+
+/Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/ConsoleLog.hpp
+iostream
+-
+
+/Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/Log/Log.cpp
+luobase/Log/Log.hpp
+-
+
+/Users/luoliang/projects/cpp/cpp/luobase_v1/luobase/main.cpp
+iostream
+-
+luobase/Log/Log.hpp
+-
+
