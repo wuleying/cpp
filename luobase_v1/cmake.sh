@@ -12,9 +12,6 @@ build_dir=$root_dir/build
 # bin目录路径
 bin_dir=$root_dir/bin
 
-# build_bin目录路径
-build_bin_dir=$build_dir/bin
-
 echo "cleanup..."
 
 if [[ -d $build_dir ]]; then
@@ -22,13 +19,16 @@ if [[ -d $build_dir ]]; then
     rm -rf $build_dir
 fi
 
-if [[ -f $root_dir/$project_name ]]; then
-    echo "rm $base_dir/$project_name"
-    rm  $root_dir/$project_name
+if [[ -d $bin_dir ]]; then
+    echo "rf -rf $bin_dir"
+    rm -rf $bin_dir
 fi
 
 echo "mkdir $build_dir"
 mkdir $build_dir
+
+echo "mkdir $bin_dir"
+mkdir $bin_dir
 
 echo "cd $build_dir"
 cd $build_dir
@@ -39,9 +39,7 @@ cmake ..
 echo "make"
 make
 
-if [[ -f $build_bin_dir/$project_name ]]; then
-    echo "cp $build_bin_dir/$project_name $bin_dir/$project_name"
-    cp $build_bin_dir/$project_name $bin_dir/$project_name
+if [[ -f $bin_dir/$project_name ]]; then
     chmod +x $bin_dir/$project_name
 fi
 
