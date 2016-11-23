@@ -10,7 +10,7 @@
 using namespace std;
 
 namespace luobase {
-    namespace log {
+    namespace Log {
         class LogConsole {
         private:
             LogConsole() { }

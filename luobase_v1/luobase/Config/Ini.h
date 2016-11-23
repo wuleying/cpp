@@ -6,8 +6,8 @@
 #define LUOBASE_INICONFIG_H
 
 namespace luobase {
-    namespace config {
-        class iniConfig {
+    namespace Config {
+        class IniConfig {
 
         };
     }

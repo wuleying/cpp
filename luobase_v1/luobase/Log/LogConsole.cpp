@@ -7,7 +7,7 @@
 using namespace std;
 
 namespace luobase {
-    namespace log {
+    namespace Log {
         /**
          * 控制台输出日志
          */

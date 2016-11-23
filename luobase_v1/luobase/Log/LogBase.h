@@ -6,7 +6,7 @@
 #define LUOBASE_LOGBASE_H
 
 namespace luobase {
-    namespace log {
+    namespace Log {
         class LogBase {
 
         };

@@ -5,7 +5,7 @@
 #include <luobase/Http/Server.h>
 
 namespace luobase {
-    namespace http {
+    namespace Http {
 
     }
 }

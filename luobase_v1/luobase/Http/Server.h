@@ -6,7 +6,7 @@
 #define LUOBASE_SERVER_H
 
 namespace luobase {
-    namespace config {
+    namespace Http {
         class Server {
 
         };

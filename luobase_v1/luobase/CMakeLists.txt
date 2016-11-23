@@ -12,6 +12,8 @@ SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 # 源文件列表
 SET(SOURCE_SRC
+        Config/Ini.cpp
+        Http/Server.cpp
         Log/LogBase.cpp
         Log/LogConsole.cpp
         Log/LogFile.cpp

@@ -5,7 +5,7 @@
 #include <luobase/Log/LogBase.h>
 
 namespace luobase {
-    namespace log {
+    namespace Log {
 
     }
 }
