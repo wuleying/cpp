@@ -11,28 +11,26 @@ using namespace std;
 
 namespace luobase {
     namespace Log {
-        class LogConsole {
+
+        class Console {
         private:
-            LogConsole() { }
+            Console() { };
 
-            ~LogConsole() { }
+            ~Console() { };
 
-            LogConsole(const LogConsole &);
+            Console(const Console &);
 
-            LogConsole &operator=(const LogConsole &);
-
-            static LogConsole *m_instance;
+            Console &operator=(const Console &);
 
         public:
-            static LogConsole *GetInstance() {
-                if (m_instance == NULL) {
-                    m_instance = new LogConsole();
-                }
-                return m_instance;
+            static Console &GetInstance() {
+                static Console singleton;
+                return singleton;
             }
 
             void Log(std::string log_info);
         };
+
     }
 }
 

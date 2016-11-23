@@ -11,7 +11,7 @@ namespace luobase {
         /**
          * 控制台输出日志
          */
-        void LogConsole::Log(std::string log_info) {
+        void Console::Log(std::string log_info) {
             cout << log_info << endl;
         }
     }

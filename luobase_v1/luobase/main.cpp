@@ -8,6 +8,6 @@ using namespace std;
 using namespace luobase;
 
 int main() {
-    cout << "Hello, World!" << endl;
+    Log::Console::GetInstance().Log("hehe");
     return 0;
 }

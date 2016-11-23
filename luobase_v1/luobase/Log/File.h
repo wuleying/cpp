@@ -7,7 +7,7 @@
 
 namespace luobase {
     namespace Log {
-        class LogFile {
+        class File {
 
         };
     }
