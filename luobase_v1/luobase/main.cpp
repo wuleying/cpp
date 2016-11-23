@@ -8,6 +8,8 @@ using namespace std;
 using namespace luobase;
 
 int main() {
-    Log::Console::GetInstance().Log("hehe");
+    Log::File::GetInstance()->Log("hehe");
+
+    Log::File::GetInstance()->Log("wow");
     return 0;
 }

@@ -6,7 +6,6 @@
 #define LUOBASE_LOG_HPP
 
 #include <luobase/Log/Base.h>
-#include <luobase/Log/Console.h>
 #include <luobase/Log/File.h>
 
 #endif //LUOBASE_LOG_HPP

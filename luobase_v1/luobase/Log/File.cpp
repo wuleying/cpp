@@ -6,6 +6,11 @@
 
 namespace luobase {
     namespace Log {
-
+        /**
+         * 控制台输出日志
+         */
+        void File::Log(std::string log_info) {
+            cout << log_info << endl;
+        }
     }
 }

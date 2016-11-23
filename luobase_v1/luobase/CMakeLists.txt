@@ -15,7 +15,6 @@ SET(SOURCE_SRC
         Config/Ini.cpp
         Http/Server.cpp
         Log/Base.cpp
-        Log/Console.cpp
         Log/File.cpp
         main.cpp
         )

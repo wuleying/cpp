@@ -7,7 +7,7 @@
 
 namespace luobase {
     namespace Config {
-        class IniConfig {
+        class Ini {
 
         };
     }
