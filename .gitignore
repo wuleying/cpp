@@ -31,4 +31,5 @@
 # Other
 .idea
 .DS_Store
-build
+luobase_v1/build
+luobase_v1/bin
