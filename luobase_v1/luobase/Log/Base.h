@@ -2,15 +2,15 @@
 // Created by luoliang1 on 2016/11/22.
 //
 
-#ifndef LUOBASE_LOGFILE_H
-#define LUOBASE_LOGFILE_H
+#ifndef LUOBASE_LOG_BASE_H
+#define LUOBASE_LOG_BASE_H
 
 namespace luobase {
     namespace Log {
-        class LogFile {
+        class Base {
 
         };
     }
 }
 
-#endif //LUOBASE_LOGFILE_H
+#endif //LUOBASE_LOG_BASE_H

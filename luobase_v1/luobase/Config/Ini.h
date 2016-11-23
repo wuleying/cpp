@@ -2,8 +2,8 @@
 // Created by luoliang1 on 2016/11/23.
 //
 
-#ifndef LUOBASE_INICONFIG_H
-#define LUOBASE_INICONFIG_H
+#ifndef LUOBASE_CONFIG_INI_H
+#define LUOBASE_CONFIG_INI_H
 
 namespace luobase {
     namespace Config {
@@ -14,4 +14,4 @@ namespace luobase {
 }
 
 
-#endif //LUOBASE_INICONFIG_H
+#endif //LUOBASE_CONFIG_INI_H

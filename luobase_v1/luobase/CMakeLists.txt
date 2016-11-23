@@ -14,9 +14,9 @@ SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(SOURCE_SRC
         Config/Ini.cpp
         Http/Server.cpp
-        Log/LogBase.cpp
-        Log/LogConsole.cpp
-        Log/LogFile.cpp
+        Log/Base.cpp
+        Log/Console.cpp
+        Log/File.cpp
         main.cpp
         )
 

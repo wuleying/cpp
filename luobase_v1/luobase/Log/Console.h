@@ -2,8 +2,8 @@
 // Created by luoliang1 on 2016/11/21.
 //
 
-#ifndef LUOBASE_LOGCONSOLE_H
-#define LUOBASE_LOGCONSOLE_H
+#ifndef LUOBASE_LOG_CONSOLE_H
+#define LUOBASE_LOG_CONSOLE_H
 
 #include <iostream>
 
@@ -36,4 +36,4 @@ namespace luobase {
     }
 }
 
-#endif //LUOBASE_LOGCONSOLE_H
+#endif //LUOBASE_LOG_CONSOLE_H

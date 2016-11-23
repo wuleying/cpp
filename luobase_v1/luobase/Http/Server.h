@@ -2,8 +2,8 @@
 // Created by luoliang1 on 2016/11/23.
 //
 
-#ifndef LUOBASE_SERVER_H
-#define LUOBASE_SERVER_H
+#ifndef LUOBASE_HTTP_SERVER_H
+#define LUOBASE_HTTP_SERVER_H
 
 namespace luobase {
     namespace Http {
@@ -14,4 +14,4 @@ namespace luobase {
 }
 
 
-#endif //LUOBASE_SERVER_H
+#endif //LUOBASE_HTTP_SERVER_H
