@@ -40,6 +40,7 @@ echo "make"
 make
 
 if [[ -f $bin_dir/$project_name ]]; then
+    strip $bin_dir/$project_name
     chmod +x $bin_dir/$project_name
 fi
 

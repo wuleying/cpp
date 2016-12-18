@@ -22,6 +22,7 @@ namespace luobase {
             File &operator=(const File &);
 
         public:
+
             static File *GetInstance() {
                 static File singleton;
                 return &singleton;
