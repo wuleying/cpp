@@ -16,7 +16,7 @@ SET(SOURCE_SRC
         Http/Server.cpp
         Log/Base.cpp
         Log/File.cpp
-        main.cpp
+        luobase.cpp
         )
 
 # 生成可执行文件
